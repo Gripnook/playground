@@ -1,8 +1,8 @@
 # Playground
 
 Simple C++ project set up with:
-- CMake for building.
 - Conan for package management.
+- CMake for building.
 - Catch2 for testing.
 
 Includes some basic scripts for getting started on Windows:
