@@ -15,5 +15,5 @@ else()
                       -Werror)
 endif()
 
-add_executable(playground src/main.cpp)
+add_executable(playground src/main.cpp src/test.cpp)
 target_link_libraries(playground ${CONAN_LIBS})
