@@ -1,0 +1,11 @@
+[requires]
+Catch2/2.9.2@catchorg/stable
+
+[generators]
+cmake
+
+[options]
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin
