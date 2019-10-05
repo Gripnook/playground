@@ -15,5 +15,9 @@ else()
                       -Werror)
 endif()
 
-add_executable(playground src/main.cpp src/test.cpp)
+add_executable(playground src/main.cpp)
 target_link_libraries(playground ${CONAN_LIBS})
+
+if(MSVC)
+  target_link_libraries(playground Shlwapi)
+endif()

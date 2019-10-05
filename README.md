@@ -4,6 +4,7 @@ Simple C++ project set up with:
 - Conan for package management.
 - CMake for building.
 - Catch2 for testing.
+- google-benchmark for benchmarking.
 - Clang-Format for code formatting.
 
 Includes some basic scripts for getting started on Windows:

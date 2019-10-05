@@ -1,5 +1,6 @@
 [requires]
 Catch2/2.9.2@catchorg/stable
+google-benchmark/1.4.1@mpusz/stable
 
 [generators]
 cmake
